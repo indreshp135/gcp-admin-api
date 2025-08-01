@@ -8,7 +8,7 @@ SERVICE_ACCOUNT_FILE = 'sa.json'
 SCOPES = ['https://www.googleapis.com/auth/admin.directory.user.readonly']
 
 # Your super admin email
-DELEGATED_ADMIN = 'ip@indresh.me'
+DELEGATED_ADMIN = 'ip@indresh.me'  # It wont work with admin@indresh.me - group
 
 
 def main():
